@@ -1,0 +1,259 @@
+body {
+	background: url('../imagenes/zocalo-bg-3.jpg');
+	color: #36393B;
+	font-size: 20px;
+	font-family: 'Raleway', sans-serif, Verdana;
+	margin: 0;
+}
+	h1, h2, h3, h4, h5 {
+		font-family: 'Architects Daughter', cursive, Verdana;
+	}
+
+.cabecera {
+	background: url('../imagenes/bancos-bg.jpg') rgba(0,0,0, .6) ;
+	background-size: cover;
+	background-position: center center;
+	color: white;
+	height: 500px;
+	text-align: center;
+	position: relative;
+}
+	.cabecera .contenedor h1 {
+		font-size: 100px;
+	}
+	.cabecera h2 {
+		background: #CC333F;
+		bottom: 0;
+		border-top: #EDC952 4px solid;
+		color: #EDC952;
+		padding: 10px 0;
+		position: absolute;
+		margin: 0;
+		width: 100%;
+	}
+	.cabecera  a {
+		color: white;
+		text-decoration: none;
+	}
+	.cabecera .logo {
+		margin: 30px auto;
+		width: 300px;
+		transition: .3s;
+	}
+		.cabecera .logo:hover {
+			-webkit-transform: rotateY(360deg);
+			-moz-webkit-transform: rotateY(360deg);
+			-ms--webkit-transform: rotateY(360deg);
+		}	
+
+/* div que envuelve al menu y al contenido principal */
+.cuerpo {
+	margin: 0 auto;
+	padding: 50px;
+	overflow: visible;
+  	max-width: 2000px;	
+}
+	.cuerpo h1, .cuerpo h2, .cuerpo h3 {
+		text-align: center;
+	} 
+
+.menu {
+	border: 4px solid #EDC952;
+	background: #CC333F;
+	float: left;
+	min-height: 300px;
+	width: 18%;
+	min-width: 163px;
+}
+	.menu ul {
+		text-align: center;
+		padding: 0 20px;
+		list-style: none;
+	}
+	.menu ul li {		
+		background: brown;
+		border-left: 5px solid #EDC952;
+		color: white;
+		margin-bottom: 10px;
+		padding: 15px 20px;
+		transition: .3s;
+	}
+	.menu a {
+		color: white;
+		text-decoration: none;
+	}
+	.menu li:hover {
+		background: #F34250;
+		font-weight: bold;
+	}
+
+/* envuelve a la seccion de Acerca y las promos */
+.contenido-principal {
+	float: left;
+	margin-left: 1%;	
+	margin-bottom: 30px;
+	width: 79%;
+	min-width: 686px;
+}
+	.acerca {
+		background-color: white;
+		border: 1px solid #D7D7D7;
+		color: #36393B;		
+		font-size: 22px;
+		text-align: center;
+		line-height: 40px;
+		padding: 20px;
+	}
+	.acerca img {
+		border-radius: 50%;
+		border: 2px solid #D7D7D7;
+		float: right;
+		height: 250px;
+		margin: 0 20px;
+		width: 250px;		
+	}
+	.acerca h2 {
+		text-shadow: 0px 1px 3px #EDC952;
+	}
+	.acerca p {	
+		text-align: left;
+	}
+	.promociones {
+		background: white;
+		border: 1px solid #D7D7D7;
+		padding: 10px 15px;
+		text-align: center;
+		margin-top: 30px;
+	}
+		.promociones-titulo, .promociones h3 {
+			background: #CC333F;
+			border-top: 5px solid #EDC952;
+			color: #EDC951;
+			padding: 18px 0;
+		}
+		.promociones .fila{
+			overflow: hidden;
+			margin-bottom: 20px;
+		}
+		.promociones .columna {
+			background: #EFEFEF;
+			border-bottom: 4px solid silver;
+			border-radius: 0 0 8px 8px;
+			float: left;
+			/*height: 465px;*/
+			margin-left: 13px;
+			min-width: 188px;
+			width: 49%;
+		}
+		.promociones .columna:first-child {
+			margin-left: 0;
+		}
+			.columna .descripcion {				
+				padding: 0 40px;
+			}
+			.columna .descripcion span {
+				background: #EDC952;
+				border-radius: 50%;
+				color: #CC333F;
+				padding: 4px 12px;
+			}
+			.columna .descripcion p {
+				text-align: center;
+			}
+			.columna .descripcion .boton {
+				border-radius: 0 0 4px 4px;
+				border-bottom: 4px solid #711818;
+				background: #CC333F;
+				color: white;
+				display: inline-block;
+				font-weight: bold;
+				padding: 10px 20px;
+				text-decoration: none;
+				transition: .3s;
+			}
+			.columna .descripcion .boton:hover {
+				background: #F34250;
+			}
+			.columna .img-contenedor {
+				background-repeat: no-repeat;
+				background-position: center center;
+				background-size: cover !important;
+				overflow: hidden;
+				height: 200px;
+			}
+			.columna .img-contenedor.hamburguesa {
+				background: url(../imagenes/hamburguesa.jpg);
+			}
+			.columna .img-contenedor.pasta {
+				background: url(../imagenes/pasta.jpg);
+			}
+			.columna .img-contenedor.desayuno {
+				background: url(../imagenes/desayuno.jpg);
+			}
+			.columna .img-contenedor.pizza {
+				background: url(../imagenes/pizza.jpg);
+			}
+
+		.detalle-plato {
+			background: white;
+			border: 1px solid #D1D1D1;
+			border-top: 7px solid #EDC952;
+			padding: 10px 20px;
+			text-align: center;
+		}
+			.detalle-plato p {
+				text-align: left;
+			}
+			.detalle-plato img {
+				max-width: 500px;
+				max-height: 500px;
+			}
+			.precio {
+				color: #CC333F;
+				font-weight: bold;
+			}
+
+/* helpers */
+.centrar-contenido {
+	text-align: center;
+}
+			
+/* Formulario de Contacto */
+.formulario-contacto {
+	background: white;
+	max-width: 700px;
+	margin: 0 auto;
+}
+	.formulario-contacto div {
+		margin: 10px 0;
+	}
+	.formulario-contacto input {
+		padding: 2px;
+		line-height: 20px;
+	}
+	.formulario-contacto label {
+		display: block;
+		margin-bottom: 5px;
+	}
+	.formulario-contacto .centrar-contenido {
+		text-align: center;
+	}
+	.formulario-contacto .boton {
+		padding: 7px 14px;
+		margin-right: 20px;
+	}
+
+.pie-de-pagina {
+	background: #36393B;
+	border-top: 10px solid #EDC951;
+	color: white;
+	clear: both; /* necesario. contenido-principal rompe el flujo por estar flotando */
+	min-height: 130px;
+	text-align: center;
+}
+	.pie-de-pagina .contenedor {
+		padding: 10px 40px;
+	}
+		.pie-de-pagina .contenedor .social img{
+			width: 50px;
+		}

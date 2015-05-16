@@ -141,9 +141,9 @@ body {
 			border-radius: 0 0 8px 8px;
 			float: left;
 			/*height: 465px;*/
-			margin-left: 13px;
+			margin-left: 20px;
 			min-width: 188px;
-			width: 49%;
+			width: 48%;
 		}
 		.promociones .columna:first-child {
 			margin-left: 0;

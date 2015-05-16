@@ -1,12 +1,37 @@
+@font-face {
+    font-family: ArchitectsDaughter;
+    src: url(../fuentes/architects-daughter/ArchitectsDaughter.ttf) format('truetype');
+	font-weight: normal;
+    font-style: normal;    
+
+}
+@font-face {
+    font-family: Raleway;
+    src: url(../fuentes/raleway/Raleway-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: Raleway;
+    src: url(../fuentes/raleway/Raleway-Bold.ttf) format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: Raleway;
+    src: url(../fuentes/raleway/Raleway-Medium.ttf) format('truetype');
+    font-weight: medium;
+    font-style: normal;
+}
 body {
 	background: url('../imagenes/zocalo-bg-3.jpg');
 	color: #36393B;
 	font-size: 20px;
-	font-family: 'Raleway', sans-serif, Verdana;
+	font-family: Raleway, sans-serif, Verdana;
 	margin: 0;
 }
 	h1, h2, h3, h4, h5 {
-		font-family: 'Architects Daughter', cursive, Verdana;
+		font-family: ArchitectsDaughter, cursive, Verdana;
 	}
 
 .cabecera {

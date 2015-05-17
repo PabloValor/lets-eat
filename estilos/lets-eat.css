@@ -301,5 +301,16 @@ h1, h2, h3, h4, h5 {
   			width: 30px;
 		}
 		.pie-de-pagina .contenedor .social img{
+			vertical-align: middle;
+			margin-left: 5px;
 			width: 50px;
 		}
+			.pie-de-pagina .contenedor .social h5 {
+				margin-bottom: 5px;
+			}
+			.pie-de-pagina .contenedor .social a {
+				text-decoration: none;
+			}
+			.pie-de-pagina .contenedor .social .google-icono {
+				width: 44px;
+			}

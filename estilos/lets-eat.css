@@ -2,8 +2,7 @@
     font-family: ArchitectsDaughter;
     src: url(../fuentes/architects-daughter/ArchitectsDaughter.ttf) format('truetype');
 	font-weight: normal;
-    font-style: normal;    
-
+    font-style: normal;
 }
 @font-face {
     font-family: Raleway;
@@ -30,9 +29,9 @@ body {
 	font-family: Raleway, sans-serif, Verdana;
 	margin: 0;
 }
-	h1, h2, h3, h4, h5 {
-		font-family: ArchitectsDaughter, cursive, Verdana;
-	}
+h1, h2, h3, h4, h5 {
+	font-family: ArchitectsDaughter, cursive, Verdana;
+}
 
 .cabecera {
 	background: url('../imagenes/bancos-bg.jpg') rgba(0,0,0, .6) ;
@@ -69,8 +68,8 @@ body {
 	}
 		.cabecera .logo:hover {
 			-webkit-transform: rotateY(360deg);
-			-moz-webkit-transform: rotateY(360deg);
-			-ms-webkit-transform: rotateY(360deg);
+			-moz-transform: rotateY(360deg);
+			-ms-transform: rotateY(360deg);
 		}	
 
 /* div que envuelve al menu y al contenido principal */
@@ -79,10 +78,7 @@ body {
 	padding: 50px;
 	overflow: visible;
   	max-width: 2000px;	
-}
-	.cuerpo h1, .cuerpo h2, .cuerpo h3 {
-		text-align: center;
-	} 
+} 
 
 .menu {
 	border: 4px solid #EDC952;
@@ -243,6 +239,12 @@ body {
 /* helpers */
 .centrar-contenido {
 	text-align: center;
+}
+.contenido-izquierda {
+	text-align: left;
+}
+.contenido-derecha {
+	text-align: right;
 }
 			
 /* Formulario de Contacto */

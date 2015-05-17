@@ -61,14 +61,16 @@ body {
 		text-decoration: none;
 	}
 	.cabecera .logo {
+		border: 3px solid #EDC952;
+		border-radius: 50%;
 		margin: 30px auto;
-		width: 300px;
 		transition: .3s;
+		width: 300px;
 	}
 		.cabecera .logo:hover {
 			-webkit-transform: rotateY(360deg);
 			-moz-webkit-transform: rotateY(360deg);
-			-ms--webkit-transform: rotateY(360deg);
+			-ms-webkit-transform: rotateY(360deg);
 		}	
 
 /* div que envuelve al menu y al contenido principal */
@@ -180,7 +182,7 @@ body {
 				background: #EDC952;
 				border-radius: 50%;
 				color: #CC333F;
-				padding: 4px 12px;
+				padding: 2px 17px;
 			}
 			.columna .descripcion p {
 				text-align: center;

@@ -267,6 +267,9 @@ h1, h2, h3, h4, h5 {
 		padding: 2px;
 		line-height: 20px;
 	}
+	.formulario-contacto input[type="number"] {
+		width: 273px;
+	}
 	.formulario-contacto label {
 		display: block;
 		margin-bottom: 5px;

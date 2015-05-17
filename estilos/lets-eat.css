@@ -37,14 +37,10 @@ h1, h2, h3, h4, h5 {
 	background: url('../imagenes/bancos-bg.jpg') rgba(0,0,0, .6) ;
 	background-size: cover;
 	background-position: center center;
-	color: white;
 	height: 500px;
 	text-align: center;
 	position: relative;
 }
-	.cabecera .contenedor h1 {
-		font-size: 100px;
-	}
 	.cabecera h2 {
 		background: #CC333F;
 		bottom: 0;
@@ -300,6 +296,10 @@ h1, h2, h3, h4, h5 {
 	.pie-de-pagina .contenedor {
 		padding: 10px 40px;
 	}
+		.pie-de-pagina .contenedor .arg-bandera {
+  			vertical-align: middle;
+  			width: 30px;
+		}
 		.pie-de-pagina .contenedor .social img{
 			width: 50px;
 		}

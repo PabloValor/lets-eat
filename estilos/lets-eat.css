@@ -159,7 +159,7 @@ h1, h2, h3, h4, h5 {
 			border-bottom: 4px solid silver;
 			border-radius: 0 0 8px 8px;
 			float: left;
-			/*height: 465px;*/
+			/*height: 500px;*/
 			margin-left: 20px;
 			min-width: 188px;
 			width: 48%;
@@ -223,6 +223,9 @@ h1, h2, h3, h4, h5 {
 			.detalle-plato p {
 				text-align: left;
 			}
+			.detalle-plato ul {
+				text-align: left;
+			}
 			.detalle-plato img {
 				max-width: 500px;
 				max-height: 500px;
@@ -270,8 +273,8 @@ h1, h2, h3, h4, h5 {
 		padding: 2px;
 		line-height: 20px;
 	}
-	.formulario-contacto input[type="number"] {
-		width: 273px;
+	.formulario-contacto input[type="number"], .formulario-contacto input[type="text"] {
+		width: 250px;
 	}
 	.formulario-contacto label {
 		display: block;
@@ -289,7 +292,7 @@ h1, h2, h3, h4, h5 {
 	background: #36393B;
 	border-top: 10px solid #EDC951;
 	color: white;
-	clear: both; /* necesario. contenido-principal rompe el flujo por estar flotando */
+	clear: both; /* Necesario. contenido-principal rompe el flujo por estar flotando */
 	min-height: 130px;
 	text-align: center;
 }

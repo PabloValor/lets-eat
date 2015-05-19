@@ -154,7 +154,7 @@ h1, h2, h3, h4, h5 {
 			overflow: hidden;
 			margin-bottom: 20px;
 		}
-		.promociones .columna {
+		.promociones .item {
 			background: #EFEFEF;
 			border-bottom: 4px solid silver;
 			border-radius: 0 0 8px 8px;
@@ -164,22 +164,22 @@ h1, h2, h3, h4, h5 {
 			min-width: 188px;
 			width: 48%;
 		}
-		.promociones .columna:first-child {
+		.promociones .item:first-child {
 			margin-left: 0;
 		}
-			.columna .descripcion {				
+			.item .descripcion {				
 				padding: 0 40px;
 			}
-			.columna .descripcion span {
+			.item .descripcion span {
 				background: #EDC952;
 				border-radius: 50%;
 				color: #CC333F;
 				padding: 2px 17px;
 			}
-			.columna .descripcion p {
+			.item .descripcion p {
 				text-align: center;
 			}
-			.columna .descripcion .boton {
+			.item .descripcion .boton {
 				border-radius: 0 0 4px 4px;
 				border-bottom: 4px solid #711818;
 				background: #CC333F;
@@ -190,26 +190,26 @@ h1, h2, h3, h4, h5 {
 				text-decoration: none;
 				transition: .3s;
 			}
-			.columna .descripcion .boton:hover {
+			.item .descripcion .boton:hover {
 				background: #F34250;
 			}
-			.columna .img-contenedor {
+			.item .img-contenedor {
 				background-repeat: no-repeat;
 				background-position: center center;
 				background-size: cover !important;
 				overflow: hidden;
 				height: 200px;
 			}
-			.columna .img-contenedor.hamburguesa {
+			.item .img-contenedor.hamburguesa {
 				background: url(../imagenes/hamburguesa.jpg);
 			}
-			.columna .img-contenedor.pasta {
+			.item .img-contenedor.pasta {
 				background: url(../imagenes/pasta.jpg);
 			}
-			.columna .img-contenedor.desayuno {
+			.item .img-contenedor.desayuno {
 				background: url(../imagenes/desayuno.jpg);
 			}
-			.columna .img-contenedor.pizza {
+			.item .img-contenedor.pizza {
 				background: url(../imagenes/pizza.jpg);
 			}
 

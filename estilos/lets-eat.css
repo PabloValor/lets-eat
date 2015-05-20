@@ -1,3 +1,9 @@
+/* Importacion de fuentes */
+
+/*
+	Architects Daughter
+	http://www.fontsquirrel.com/fonts/list/find_fonts?q%5Bterm%5D=Architects+Daughter&q%5Bsearch_check%5D=Y
+*/
 @font-face {
     font-family: ArchitectsDaughter;
     src: url(../fuentes/architects-daughter/ArchitectsDaughter.ttf) format('truetype');
@@ -10,6 +16,10 @@
     font-weight: normal;
     font-style: normal;
 }
+/*
+	Raleway
+	http://www.fontsquirrel.com/fonts/list/find_fonts?q%5Bterm%5D=raleway&q%5Bsearch_check%5D=Y
+*/
 @font-face {
     font-family: Raleway;
     src: url(../fuentes/raleway/Raleway-Bold.ttf) format('truetype');
@@ -22,6 +32,8 @@
     font-weight: medium;
     font-style: normal;
 }
+/*	/Importacion de fuentes	*/
+
 body {
 	background: url('../imagenes/zocalo-bg-3.jpg');
 	color: #36393B;
@@ -32,7 +44,7 @@ body {
 h1, h2, h3, h4, h5 {
 	font-family: ArchitectsDaughter, cursive, Verdana;
 }
-
+/*	Cabecera	*/
 .cabecera {
 	background: url('../imagenes/bancos-bg.jpg') rgba(0,0,0, .6) ;
 	background-size: cover;
@@ -68,6 +80,9 @@ h1, h2, h3, h4, h5 {
 			-ms-transform: rotateY(360deg);
 		}	
 
+/*	/Cabecera	*/		
+
+/*	Cuerpo	*/
 /* div que envuelve al menu y al contenido principal */
 .cuerpo {
 	margin: 0 auto;
@@ -76,6 +91,7 @@ h1, h2, h3, h4, h5 {
   	max-width: 2000px;	
 } 
 
+/*	Menu	*/
 .menu {
 	border: 4px solid #EDC952;
 	background: #CC333F;
@@ -105,7 +121,9 @@ h1, h2, h3, h4, h5 {
 		background: #F34250;
 		font-weight: bold;
 	}
+/*	/Menu	*/
 
+/*	Contenido Principal		*/
 /* envuelve a la seccion de Acerca y las promos */
 .contenido-principal {
 	float: left;
@@ -114,6 +132,7 @@ h1, h2, h3, h4, h5 {
 	width: 79%;
 	min-width: 686px;
 }
+	/* 	Panel Acerca	*/
 	.acerca {
 		background-color: white;
 		border: 1px solid #D7D7D7;
@@ -137,6 +156,9 @@ h1, h2, h3, h4, h5 {
 	.acerca p {	
 		text-align: left;
 	}
+	/*	/Panel Acerca	*/
+	
+	/*	Promociones	*/
 	.promociones {
 		background: white;
 		border: 1px solid #D7D7D7;
@@ -212,7 +234,9 @@ h1, h2, h3, h4, h5 {
 			.item .img-contenedor.pizza {
 				background: url(../imagenes/pizza.jpg);
 			}
-
+		/*	/Promociones 	*/
+		
+		/* Detalle */
 		.detalle-plato {
 			background: white;
 			border: 1px solid #D1D1D1;
@@ -234,6 +258,8 @@ h1, h2, h3, h4, h5 {
 				color: #CC333F;
 				font-weight: bold;
 			}
+		/* /Detalle	 */
+/*	/Contenido Principal		*/
 
 /* helpers */
 .centrar-contenido {
@@ -245,6 +271,7 @@ h1, h2, h3, h4, h5 {
 .contenido-derecha {
 	text-align: right;
 }
+/* /helpers */
 			
 /* Formulario de Contacto */
 .formulario-contacto {
@@ -287,7 +314,9 @@ h1, h2, h3, h4, h5 {
 		padding: 7px 14px;
 		margin-right: 20px;
 	}
+/* /Formulario de Contacto */
 
+/*	Footer 	*/
 .pie-de-pagina {
 	background: #36393B;
 	border-top: 10px solid #EDC951;
@@ -317,3 +346,4 @@ h1, h2, h3, h4, h5 {
 			.pie-de-pagina .contenedor .social .google-icono {
 				width: 44px;
 			}
+/*	Footer 	*/
